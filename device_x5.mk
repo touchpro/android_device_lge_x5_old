@@ -375,12 +375,28 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.call_type=1 \
     ro.config.vc_call_vol_steps=7 \
     ro.modem.no_wdog_chk=1 \
-    persist.call_recording.enabled=1
+    persist.call_recording.enabled=1 \
+    ro.cdma.home.operator.numeric=310120 \
+    ro.cdma.home.operator.alpha=Sprint \
+    telephony.lteOnCdmaDevice=1 \
+    telephony.lte.cdma.device=1 \
+    ro.telephony.default.network=8 \
+    ro.ril.def.preferred.network=8 \
+    ril.subscription.types=NV,RUIM \
+    ro.cdma.subscribe_on_ruim_ready=true \
+    persist.radio.no_wait_for_card=1 \
+    keyguard.no_require_sim=true \
+    telephony.sms.pseudo_multipart=1 \
+    DEVICE_PROVISIONED=1
 
 # NFC packages
 ifeq ($(TARGET_KERNEL_HAS_NFC),true)
     PRODUCT_PACKAGES += \
         NfcNci \
+	nfc.default \
+	libnfc \
+	libnfc_jni \
+	Nfc \
         Tag \
         nfc_nci.x5 \
         com.android.nfc_extras
