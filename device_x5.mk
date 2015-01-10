@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     device/lge/x5/prebuilt/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     device/lge/x5/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/lge/x5/prebuilt/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    device/lge/x5/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml \
     device/lge/x5/prebuilt/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     device/lge/x5/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml \
     device/lge/x5/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
