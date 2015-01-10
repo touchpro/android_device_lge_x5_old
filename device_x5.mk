@@ -139,6 +139,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    audio.primary.msm8226 \
     audio_policy.msm8226 \
     audio.a2dp.default \
     audio.usb.default \
@@ -148,6 +149,9 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcompostprocbundle \
     libqcomvoiceprocessing \
+    libaudioroute \
+    libtinyalsa \
+    libtinycompress \
     tinycap \
     tinymix \
     tinypcminfo \
@@ -322,7 +326,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     lpa.decode=true \
     qcom.hw.aac.encoder=true \
     af.resampler.quality=255 \
-    persist.audio.lowlatency.rec=false
+    persist.audio.lowlatency.rec=false \
+    persist.sys.media.use-awesome=true
 
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
