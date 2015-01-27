@@ -88,6 +88,17 @@ PRODUCT_COPY_FILES += \
     device/lge/x5/prebuilt/etc/init.zetaw.wifi.sh:system/etc/init.zetaw.wifi.sh \
     device/lge/x5/prebuilt/etc/init.crda.sh:system/etc/init.crda.sh \
     device/lge/x5/prebuilt/etc/init.zetaw.post_boot.sh:system/etc/init.zetaw.post_boot.sh \
+    device/lge/x5/prebuilt/etc/dcm_settings.xml:system/etc/dcm_settings.xml \
+    device/lge/x5/prebuilt/etc/dtmf_config.xml:system/etc/dtmf_config.xml \
+    device/lge/x5/prebuilt/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
+    device/lge/x5/prebuilt/etc/featureset.xml:system/etc/featureset.xml \
+    device/lge/x5/prebuilt/etc/fpri_crc.xml:system/etc/fpri_crc.xml \
+    device/lge/x5/prebuilt/etc/gps.conf:system/etc/gps.conf \
+    device/lge/x5/prebuilt/etc/sprint_sysprop_notavailable.conf:system/etc/sprint_sysprop_notavailable.conf \
+    device/lge/x5/prebuilt/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    device/lge/x5/prebuilt/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    device/lge/x5/prebuilt/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
+    device/lge/x5/prebuilt/etc/xtwifi.conf:system/etc/xtwifi.conf \
     device/lge/x5/prebuilt/etc/sap.conf:system/etc/sap.conf \
     device/lge/x5/prebuilt/etc/gps.conf:system/etc/gps.conf \
     device/lge/x5/prebuilt/etc/msap.conf:system/etc/msap.conf \

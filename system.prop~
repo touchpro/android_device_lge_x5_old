@@ -6,7 +6,6 @@
 persist.sys.usb.config=mtp,adb
 
 # Use reference RIL for initial bringup
-#rild.libpath=/system/lib/libreference-ril.so
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
@@ -22,36 +21,10 @@ ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 # Start in cdma mode
 
-#
-# system props for the cne module
-#
-persist.cne.feature=1
-
-
-# Skip /sys/power/wait_for_fb_* nodes and
-# force FB to be always on
-debug.sf.fb_always_on=1
-
-debug.sf.hw=1
-debug.egl.hw=1
-debug.composition.type=c2d
-persist.hwc.mdpcomp.enable=true
-debug.mdpcomp.logs=0
-dalvik.vm.heapsize=36m
-dev.pm.dyn_samplingrate=1
-
-persist.demo.hdmirotationlock=false
-ro.hdmi.enable=true
-qcom.hw.aac.encoder=true
-
-
 # system props for the data modules
 #
 ro.use_data_netmgrd=true
-#2013-08-31 kwangbin.yim@lge.com LGP_DATA_TEMPORARY_PATCH_FOR_KK_APP_TEST[START]
-#persist.data.netmgrd.qos.enable=true
 persist.data.netmgrd.qos.enable=false
-#2013-08-31 kwangbin.yim@lge.com LGP_DATA_TEMPORARY_PATCH_FOR_KK_APP_TEST[END]
 
 #system props for time-services
 persist.timed.enable=true
@@ -113,8 +86,12 @@ debug.qualcomm.sns.daemon=w
 debug.qualcomm.sns.libsensor1=w
 ro.lge.irrc.type=sw
 persist.radio.apm_sim_not_pwdn=1
-ro.cdma.home.operator.alpha=Chameleon
-ro.cdma.home.operator.numeric=310000
+ro.cdma.home.operator.alpha=Virgin mobile US
+ro.cdma.home.operator.numeric=311490
+ro.product.locale.region=US
+gsm.sim.operator.alpha=Virgin Mobile US
+gsm.sim.operator.numeric=311490
+gsm.operator.alpha=Virgin Mobile US
 ro.telephony.default_network=8
 persist.gsm.sms.disablelog=64
 net.bt.name=Android

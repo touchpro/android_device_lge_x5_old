@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<dtmf_configration>
+<!-- Dialer -->
+    <integer name="dialer_dtmf_volume_spk">80</integer>
+    <integer name="dialer_dtmf_volume_headset">80</integer>
+
+<!-- Message -->
+    <integer name="msg_dtmf_noti_volume_rcv">80</integer>
+    <integer name="msg_dtmf_noti_volume_headset">70</integer>
+    <integer name="msg_dtmf_cmas_volume_rcv">90</integer>
+    <integer name="msg_dtmf_cmas_volume_headset">60</integer>
+</dtmf_configration>

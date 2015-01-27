@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<profiles>
+    <FeatureSet>
+        <item name="support_svlte">true</item>
+        <item name="support_send_burst_dtmf">true</item>
+        <item name="support_cdma_forward_burst_dtmf">true</item>
+        <item name="fix_timezone_by_mcc">true</item>
+        <item name="support_sprint_n11">true</item>
+		<item name="NotSupportOtaSpNumber">true</item>
+		<item name="show_Mdn_For_VMS">true</item>
+		<item name="support_smart_dialing">true</item>
+        <item name="ecc_number_in_hidden_menu">true</item>
+		<item name="MANUAL_SELECTION_WITH_RAT">true</item>
+		<item name="MANAGED_TIME_SETTING">true</item>
+        <item name="sprint_location_spec">true</item>
+        <item name="sprint_hdr_roaming">true</item>
+        <item name="sprint_ehrpd_forced">true</item>
+<!--LGE_UPDATE_S [Call_Patch_0053][CALL_FRW][COMMON], 2013/11/07, Speech codec Indicator  -->
+<!-- this feature is originally use for display HD Voice icon for TMUS,MPCS  -->
+<!-- but Sprint HD Voice is also use this feature for display HD Voice icon, because sharing same UNSOL command  -->
+        <item name="speech_codec_ind">true</item>
+<!--LGE_UPDATE_E [Call_Patch_0053][CALL_FRW][COMMON], 2013/11/07, Speech codec Indicator  -->
+
+        <!-- SMS [START] { -->
+        <item name="KREncodingScheme">false</item>
+        <item name="KSC5601Decoding">true</item>
+        <item name="cdma_sms_cdg2">false</item>
+        <item name="cdma_kr_testbed_mms_receive">true</item>
+        <item name="increase_user_permit_sent_sms_max_count">true</item>
+
+        <item name="cdma_priority_indicator">true</item>
+        <item name="cdma_sms_callback">true</item>
+
+        <item name="sprint_segment_sms">true</item>
+        <item name="sprint_reassembly_sms">true</item>
+        <item name="sprint_not_support_reassembly_sms_setting_menu">false</item>
+        <item name="support_sprint_vvm">true</item>
+        <item name="support_sprint_sms_roaming_guard">true</item>
+
+        <item name="reparse_wap_push_index">true</item>
+        <item name="support_sprint_lock_and_wipe">true</item>
+
+        <item name="mo_sms_with_1xcsfb">true</item>
+        <!-- SMS [END] } -->
+
+                <!--LGE_UPDATE_S [Call_Patch_0045][CALL_FRW][COMMON], 2013/08/23, Block Private Log  -->
+                <!-- 0x001 : USSD  -->
+                <!-- 0x010 : Dial String. (call number) -->
+                <!-- 0x100 : Phone Identity. (MDN, IMEI, MEID, MSISDN, etc.)   -->
+                <item name="block_private_log_level">0x111</item>
+                <!--LGE_UPDATE_E [Call_Patch_0045][CALL_FRW][COMMON], 2013/08/23, Block Private Log  -->
+    </FeatureSet>
+</profiles>

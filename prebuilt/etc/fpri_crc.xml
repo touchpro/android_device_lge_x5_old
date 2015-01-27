@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+  <parameter db="system" name="SIM1">SIM card 1</parameter>
+  <parameter db="system" name="SIM2">SIM card 2</parameter>
+  <parameter db="system" name="SIM3">SIM card 3</parameter>
+  <parameter db="system" name="accelerometer_rotation">1</parameter>
+  <parameter db="system" name="alarm_alert">content://media/internal/audio/media/13</parameter>
+  <parameter db="system" name="already_night_mode">0</parameter>
+  <!-- <parameter db="system" name="android.msg.attachment.max.size">1018264</parameter>-->
+  <!-- <parameter db="system" name="android.msg.attachment.overhead.size">30312</parameter>-->
+  <!-- <parameter db="system" name="android.msg.camera.max.video.resolution">320x240</parameter>-->
+  <!-- <parameter db="system" name="android.msg.cmas.support">true</parameter>-->
+  <!-- <parameter db="system" name="android.msg.mms.max.count">20</parameter>-->
+  <!-- <parameter db="system" name="android.msg.mms.uaprofurl">http://device.sprintpcs.com/LG/LS740-Chameleon/LS740ZV2.rdf</parameter>-->
+  <!-- <parameter db="system" name="android.msg.mms.useragent">LS740 Chameleon</parameter>-->
+  <!-- <parameter db="system" name="android.msg.old.message.delete">true</parameter>-->
+  <!-- <parameter db="system" name="android.msg.package.distinction">lgusmms</parameter>-->
+  <!-- <parameter db="system" name="android.msg.recipient.max.size">40</parameter>-->
+  <!-- <parameter db="system" name="android.msg.sms.max.count">200</parameter>-->
+  <!-- <parameter db="system" name="android.msg.vobect.max.size">20</parameter>-->
+  <parameter db="system" name="assist_dial_check">0</parameter>
+  <!--  <parameter db="system" name="assist_dial_ota_mcc">310</parameter> -->
+  <!-- <parameter db="system" name="assist_dial_ota_sid">0</parameter> -->
+  <parameter db="system" name="auto_split_view">0</parameter>
+  <parameter db="system" name="autorun_switch">1</parameter>
+  <parameter db="system" name="balance_change_value">31</parameter>
+  <parameter db="system" name="button_combination">Back|Home|Menu|</parameter>
+  <parameter db="system" name="car_dock_sound">/system/media/audio/ui/Dock.ogg</parameter>
+  <parameter db="system" name="car_home_auto_launch">1</parameter>
+  <parameter db="system" name="car_undock_sound">/system/media/audio/ui/Undock.ogg</parameter>
+  <parameter db="system" name="clarity_setting">0</parameter>
+  <parameter db="system" name="com.lge.settings.wifi.wifiOffloadingNotifyMe">1</parameter>
+  <parameter db="system" name="custom_screen_brightness">true</parameter>
+  <parameter db="system" name="date_format"></parameter>
+  <parameter db="system" name="default_sub_vibrate_pattern">0,960,320,960,320,960,320,0</parameter>
+  <parameter db="system" name="default_third_vibrate_pattern">0,960,320,960,320,960,320,0</parameter>
+  <parameter db="system" name="default_vibrate_pattern">0,960,320,960,320,960,320,0</parameter>
+  <parameter db="system" name="desk_dock_sound">/system/media/audio/ui/Dock.ogg</parameter>
+  <parameter db="system" name="desk_home_auto_launch">1</parameter>
+  <parameter db="system" name="desk_undock_sound">/system/media/audio/ui/Undock.ogg</parameter>
+  <parameter db="system" name="dhcp_server">0</parameter>
+  <parameter db="system" name="dim_screen">1</parameter>
+  <parameter db="system" name="dim_screen_brightness">10</parameter>
+  <parameter db="system" name="distinctive_vibration_alarm">4</parameter>
+  <parameter db="system" name="distinctive_vibration_calendar">5</parameter>
+  <parameter db="system" name="distinctive_vibration_email">2</parameter>
+  <parameter db="system" name="distinctive_vibration_incoming_calls">1</parameter>
+  <parameter db="system" name="distinctive_vibration_messaging">3</parameter>
+  <parameter db="system" name="dns_server">151.197.0.38</parameter>
+  <parameter db="system" name="dock_sounds_enabled">0</parameter>
+  <parameter db="system" name="dtmf_tone">1</parameter>
+  <parameter db="system" name="dtmf_tone_type">0</parameter>
+  <parameter db="system" name="dual_window">1</parameter>
+  <parameter db="system" name="eco_mode">0</parameter>
+  <parameter db="system" name="emergency_tone">0</parameter>
+  <parameter db="system" name="emotional_led_alarm">1</parameter>
+  <parameter db="system" name="emotional_led_back_alarm">0</parameter>
+  <parameter db="system" name="emotional_led_back_calendar_noti">0</parameter>
+  <parameter db="system" name="emotional_led_back_camera_face_detecting_noti">0</parameter>
+  <parameter db="system" name="emotional_led_back_camera_timer_noti">0</parameter>
+  <parameter db="system" name="emotional_led_back_in_call">1</parameter>
+  <parameter db="system" name="emotional_led_back_incoming_call">0</parameter>
+  <parameter db="system" name="emotional_led_back_led">0</parameter>
+  <parameter db="system" name="emotional_led_back_missed_call">0</parameter>
+  <parameter db="system" name="emotional_led_back_missed_call_msg">0</parameter>
+  <parameter db="system" name="emotional_led_back_missed_emails">0</parameter>
+  <parameter db="system" name="emotional_led_back_missed_messages">0</parameter>
+  <parameter db="system" name="emotional_led_back_voice_recording">0</parameter>
+  <parameter db="system" name="emotional_led_battery_charging">1</parameter>
+  <parameter db="system" name="emotional_led_calendar">1</parameter>
+  <parameter db="system" name="emotional_led_gps">1</parameter>
+  <parameter db="system" name="emotional_led_incoming_call">1</parameter>
+  <parameter db="system" name="emotional_led_incoming_call_favorite">1</parameter>
+  <parameter db="system" name="emotional_led_missed_call_msg">1</parameter>
+  <parameter db="system" name="emotional_led_missed_event_reminder">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_cell_broad">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_email">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_felica">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_missed_call">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_msg">1</parameter>
+  <parameter db="system" name="emotional_led_reminder_voicemail">1</parameter>
+  <parameter db="system" name="emotional_led_voice_recorder">1</parameter>
+  <parameter db="system" name="enable_hide_navigation">0</parameter>
+  <parameter db="system" name="end_ip">192.168.1.254</parameter>
+  <parameter db="system" name="fluence_setting">1</parameter>
+  <parameter db="system" name="front_key_alarm">0</parameter>
+  <parameter db="system" name="front_key_all">1</parameter>
+  <parameter db="system" name="front_key_calendar_reminder">0</parameter>
+  <parameter db="system" name="front_key_email">0</parameter>
+  <parameter db="system" name="front_key_felica">1</parameter>
+  <parameter db="system" name="front_key_gps">0</parameter>
+  <parameter db="system" name="front_key_indicator">0</parameter>
+  <parameter db="system" name="front_key_light_prevalue">1500</parameter>
+  <parameter db="system" name="front_key_messaging">1</parameter>
+  <parameter db="system" name="front_key_missed_call">1</parameter>
+  <parameter db="system" name="front_key_social_event">0</parameter>
+  <parameter db="system" name="front_key_voice_mail">1</parameter>
+  <parameter db="system" name="front_touch_land_position">0</parameter>
+  <parameter db="system" name="gateway">192.168.1.1</parameter>
+  <parameter db="system" name="gentle_vibration_status">0</parameter>
+  <parameter db="system" name="gesture_alarm">0</parameter>
+  <parameter db="system" name="gesture_all_editor">0</parameter>
+  <parameter db="system" name="gesture_answering">1</parameter>
+  <parameter db="system" name="gesture_app_shortcut">1</parameter>
+  <parameter db="system" name="gesture_customized_knockon">1</parameter>
+  <parameter db="system" name="gesture_fadeout_ringtone">1</parameter>
+  <parameter db="system" name="gesture_home_rearrange">0</parameter>
+  <parameter db="system" name="gesture_image_panning">0</parameter>
+  <parameter db="system" name="gesture_image_viewer">0</parameter>
+  <parameter db="system" name="gesture_media_volume_control">1</parameter>
+  <parameter db="system" name="gesture_tilt_default_use">1</parameter>
+  <parameter db="system" name="gesture_tilt_value">2</parameter>
+  <parameter db="system" name="gesture_trun_screen_on">1</parameter>
+  <parameter db="system" name="gesture_video_player">0</parameter>
+  <parameter db="system" name="gesture_voice_call">0</parameter>
+  <parameter db="system" name="glove_touch_enable">0</parameter>
+  <parameter db="system" name="go_home">1</parameter>
+<!--  <parameter db="system" name="grid_view_hasfocus">0</parameter> -->
+  <parameter db="system" name="hands_free_mode_call">1</parameter>
+  <parameter db="system" name="hands_free_mode_message">1</parameter>
+  <parameter db="system" name="hands_free_mode_read_message">0</parameter>
+  <parameter db="system" name="hands_free_mode_status">0</parameter>
+  <parameter db="system" name="haptic_feedback_enabled">1</parameter>
+  <parameter db="system" name="hearing_aid">0</parameter>
+  <parameter db="system" name="hide_display">0</parameter>
+  <parameter db="system" name="hotkey_long_class">none</parameter>
+  <parameter db="system" name="hotkey_long_package">none</parameter>
+  <parameter db="system" name="hotkey_short_class">com.lge.pa.activity.LocalListViewActivity</parameter>
+  <parameter db="system" name="hotkey_short_package">com.lge.pa</parameter>
+  <parameter db="system" name="ip_code_number">17951</parameter>
+  <parameter db="system" name="keep_screen_on">0</parameter>
+  <parameter db="system" name="keep_screen_on_do_not_show">0</parameter>
+  <parameter db="system" name="keep_video_on">0</parameter>
+  <parameter db="system" name="keep_video_on_do_not_show">0</parameter>
+  <!-- <parameter db="system" name="led_brightness">255</parameter>-->
+  <!-- <parameter db="system" name="lg_data_roam_guard_first_access">0</parameter>-->
+  <parameter db="system" name="lg_device_name">LG Volt</parameter>
+  <!-- <parameter db="system" name="lg_gsm_data_roam_guard_first_access">0</parameter>-->
+  <parameter db="system" name="lg_is_omadm_running">0</parameter>
+<!--  <parameter db="system" name="lg_omadm_check_version">LS740ZV2</parameter> -->
+<!--  <parameter db="system" name="lg_omadm_lwmo_lock_code">0</parameter> -->
+  <parameter db="system" name="lge_notification_light_pulse">1</parameter>
+  <parameter db="system" name="lock_sound">/system/media/audio/ui/Lock.ogg</parameter>
+  <parameter db="system" name="lockscreen_sounds_enabled">1</parameter>
+<!--  <parameter db="system" name="lost_phone_number"></parameter>-->
+  <parameter db="system" name="low_battery_sound">/system/media/audio/ui/LowBattery.ogg</parameter>
+  <parameter db="system" name="mask">255.255.255.0</parameter>
+  <!-- <parameter db="system" name="media_button_receiver">com.lge.music/com.lge.music.MediaButtonIntentReceiver</parameter>-->
+  <parameter db="system" name="media_home_auto_launch">1</parameter>
+  <parameter db="system" name="mms_support_one_hand_keyboard">1</parameter>
+  <parameter db="system" name="mode_ringer">2</parameter>
+  <parameter db="system" name="mode_ringer_streams_affected">418</parameter>
+  <parameter db="system" name="mono_audio_settings">0</parameter>
+  <parameter db="system" name="multi_sim_data_call">0</parameter>
+  <parameter db="system" name="multitasking_slide_aside">1</parameter>
+  <parameter db="system" name="mute_streams_affected">46</parameter>
+  <parameter db="system" name="navigation_bar_edit">1</parameter>
+  <parameter db="system" name="navigation_bar_moving">1</parameter>
+  <parameter db="system" name="navigation_bar_option">1</parameter>
+  <parameter db="system" name="navigation_bar_theme">com.lge.systemui.theme.white</parameter>
+  <parameter db="system" name="next_alarm_formatted"></parameter>
+  <parameter db="system" name="night_mode_enabled">0</parameter>
+  <parameter db="system" name="notification_light_pulse">1</parameter>
+  <parameter db="system" name="notification_light_pulse_back">0</parameter>
+  <parameter db="system" name="notification_sound">content://media/internal/audio/media/29</parameter>
+  <parameter db="system" name="notification_sound_sim2">content://media/internal/audio/media/29</parameter>
+  <parameter db="system" name="notification_sound_sim3">content://media/internal/audio/media/29</parameter>
+  <parameter db="system" name="numlocdisp_call_on">1</parameter>
+  <parameter db="system" name="numlocdisp_pb_on">1</parameter>
+  <parameter db="system" name="numlocdisp_sms_on">1</parameter>
+  <parameter db="system" name="one_hand_call_screen">0</parameter>
+  <parameter db="system" name="one_hand_dial_keypad">0</parameter>
+  <parameter db="system" name="one_hand_front_touch_button">0</parameter>
+  <parameter db="system" name="one_hand_lg_keyboard">0</parameter>
+  <parameter db="system" name="one_hand_lock_screen">0</parameter>
+  <parameter db="system" name="one_hand_mini_view">1</parameter>
+  <parameter db="system" name="one_hand_navigation_button">0</parameter>
+  <parameter db="system" name="one_hand_pull_down_screen">0</parameter>
+  <parameter db="system" name="phone_mode_set">0</parameter>
+  <parameter db="system" name="plc_mode_set">1</parameter>
+  <parameter db="system" name="pointer_speed">0</parameter>
+  <parameter db="system" name="pouch_clock">0</parameter>
+  <parameter db="system" name="pouch_clock_font">0</parameter>
+  <parameter db="system" name="pouch_clock_mode">0</parameter>
+  <parameter db="system" name="pouch_clock_position">0</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch">1</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch_calendar_events">0</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch_email">0</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch_message">1</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch_missed_call">1</parameter>
+  <parameter db="system" name="pouch_mode_auto_launch_voice_message">1</parameter>
+  <parameter db="system" name="pouch_new_event">0</parameter>
+  <parameter db="system" name="pouch_preset_or_custom">0</parameter>
+  <parameter db="system" name="pouch_preset_screen_image_path">0</parameter>
+  <parameter db="system" name="power_save_animations">0</parameter>
+  <parameter db="system" name="power_save_auto_brightness">-1</parameter>
+  <parameter db="system" name="power_save_auto_screen_tone">1</parameter>
+  <parameter db="system" name="power_save_auto_screen_tone_restore">-1</parameter>
+  <parameter db="system" name="power_save_battery_indicator">0</parameter>
+  <parameter db="system" name="power_save_brightness">20</parameter>
+  <parameter db="system" name="power_save_brightness_adjust">1</parameter>
+  <parameter db="system" name="power_save_brightness_mode">1</parameter>
+  <parameter db="system" name="power_save_brightness_restore">-1</parameter>
+  <parameter db="system" name="power_save_bt">1</parameter>
+  <parameter db="system" name="power_save_bt_restore">0</parameter>
+  <parameter db="system" name="power_save_cpu">1</parameter>
+  <parameter db="system" name="power_save_cpu_adjust">0</parameter>
+  <parameter db="system" name="power_save_cpu_restore">-1</parameter>
+  <parameter db="system" name="power_save_emotional_led">0</parameter>
+  <parameter db="system" name="power_save_emotional_led_restore">-1</parameter>
+  <parameter db="system" name="power_save_enabled">0</parameter>
+  <parameter db="system" name="power_save_front_led">1500</parameter>
+  <parameter db="system" name="power_save_front_led_adjust">1</parameter>
+  <parameter db="system" name="power_save_front_led_restore">-1</parameter>
+  <parameter db="system" name="power_save_gps">1</parameter>
+  <parameter db="system" name="power_save_mode">30</parameter>
+  <parameter db="system" name="power_save_mode_activated">0</parameter>
+  <parameter db="system" name="power_save_nfc">1</parameter>
+  <parameter db="system" name="power_save_nfc_restore">0</parameter>
+  <parameter db="system" name="power_save_notification_flash">1</parameter>
+  <parameter db="system" name="power_save_notification_flash_restore">-1</parameter>
+  <parameter db="system" name="power_save_quick_case">1</parameter>
+  <parameter db="system" name="power_save_quick_case_restore">-1</parameter>
+  <parameter db="system" name="power_save_quick_case_restore_lolli_type">-1</parameter>
+  <parameter db="system" name="power_save_quick_case_restore_type">-1</parameter>
+  <parameter db="system" name="power_save_screen_timeout">15000</parameter>
+  <parameter db="system" name="power_save_screen_timeout_adjust">1</parameter>
+  <parameter db="system" name="power_save_screen_timeout_restore">1</parameter>
+  <parameter db="system" name="power_save_started">-1</parameter>
+  <parameter db="system" name="power_save_sync">0</parameter>
+  <parameter db="system" name="power_save_sync_restore">0</parameter>
+  <parameter db="system" name="power_save_touch">1</parameter>
+  <parameter db="system" name="power_save_touch_restore">0</parameter>
+  <parameter db="system" name="power_save_wifi">1</parameter>
+  <parameter db="system" name="power_save_wifi_restore">0</parameter>
+<!-- <parameter db="system" name="power_save_wireless_charge">0</parameter>-->
+  <parameter db="system" name="power_sounds_enabled">1</parameter>
+  <parameter db="system" name="prefix_length">24</parameter>
+  <parameter db="system" name="quiet_mode_boot_noti_update">0</parameter>
+  <parameter db="system" name="quiet_mode_check_block_alarms">0</parameter>
+  <parameter db="system" name="quiet_mode_check_block_incoming_calls">1</parameter>
+  <parameter db="system" name="quiet_mode_check_block_notifications">1</parameter>
+  <parameter db="system" name="quiet_mode_check_repeated_call">0</parameter>
+<!-- <parameter db="system" name="quiet_mode_function_status">0</parameter>-->
+  <parameter db="system" name="quiet_mode_status">0</parameter>
+<!-- <parameter db="system" name="quiet_mode_status_direct">0</parameter>-->
+  <parameter db="system" name="quiet_mode_status_direct">0</parameter>
+  <parameter db="system" name="quiet_mode_support_model">1</parameter>
+  <parameter db="system" name="quiet_time_check_days">1111100</parameter>
+  <parameter db="system" name="quiet_time_check_scheduled_time">0</parameter>
+  <parameter db="system" name="quiet_time_end_hour">6</parameter>
+  <parameter db="system" name="quiet_time_end_minute">0</parameter>
+  <!-- <parameter db="system" name="quiet_time_end_start_time">126000857</parameter> -->
+  <parameter db="system" name="quiet_time_start_hour">22</parameter>
+  <parameter db="system" name="quiet_time_start_minute">0</parameter>
+  <!-- <parameter db="system" name="quiet_time_start_time">183600839</parameter> -->
+  <parameter db="system" name="quietmode_auto_reply_message">I will contact you as soon as possible</parameter>
+  <parameter db="system" name="quietmode_auto_reply_option">0</parameter>
+  <parameter db="system" name="ringtone">content://media/internal/audio/media/49</parameter>
+  <parameter db="system" name="ringtone_sim2">content://media/internal/audio/media/49</parameter>
+  <parameter db="system" name="ringtone_sim3">content://media/internal/audio/media/49</parameter>
+  <parameter db="system" name="ringtone_videocall">content://media/internal/audio/media/49</parameter>
+  <parameter db="system" name="roaming_auto_dial">0</parameter>
+  <parameter db="system" name="save_camera_in_sd_card">0</parameter>
+  <parameter db="system" name="screen_brightness">161</parameter>
+  <parameter db="system" name="screen_brightness_custom">161</parameter>
+  <parameter db="system" name="screen_brightness_mode">0</parameter>
+  <parameter db="system" name="screen_brightness_mode_custom">0</parameter>
+  <parameter db="system" name="screen_capture_area">0</parameter>
+  <parameter db="system" name="screen_mode_set">0</parameter>
+  <!-- <parameter db="system" name="screen_off_effect_set">0</parameter>-->
+  <parameter db="system" name="screen_off_timeout">60000</parameter>
+  <parameter db="system" name="settings_style">0</parameter>
+  <parameter db="system" name="settings_style_do_not_show">0</parameter>
+  <parameter db="system" name="show_warning_popup">1</parameter>
+  <parameter db="system" name="sim_icon_1">0</parameter>
+  <parameter db="system" name="sim_icon_2">0</parameter>
+  <parameter db="system" name="sim_icon_3">0</parameter>
+  <parameter db="system" name="sim_theme">0</parameter>
+  <parameter db="system" name="smart_ringtone">1</parameter>
+  <parameter db="system" name="sound_effects_enabled">1</parameter>
+  <parameter db="system" name="sprint_subscriber_acctsubtype"></parameter>
+  <parameter db="system" name="sprint_subscriber_accttype"></parameter>
+  <parameter db="system" name="sprint_subscriber_ban"></parameter>
+  <parameter db="system" name="sprint_subscriber_billcycledate"></parameter>
+  <parameter db="system" name="sprint_subscriber_carrierid">Chameleon</parameter>
+  <parameter db="system" name="sprint_subscriber_csa"></parameter>
+  <parameter db="system" name="sprint_subscriber_state"></parameter>
+  <parameter db="system" name="sprint_subscriber_usagemode"></parameter>
+  <parameter db="system" name="sprint_subscriber_zipcode"></parameter>
+  <parameter db="system" name="start_ip">192.168.1.2</parameter>
+  <parameter db="system" name="take_screenshot">1</parameter>
+  <parameter db="system" name="tethering_time">600000</parameter>
+  <parameter db="system" name="time_12_24">12</parameter>
+  <parameter db="system" name="time_zone_id"></parameter>
+  <parameter db="system" name="timed_silent_mode">0</parameter>
+  <parameter db="system" name="timer_alert">content://media/internal/audio/media/19</parameter>
+  <parameter db="system" name="transition_animation_scale">1.0</parameter>
+  <parameter db="system" name="tty_mode">0</parameter>
+  <parameter db="system" name="unlock_sound">/system/media/audio/ui/Unlock.ogg</parameter>
+  <parameter db="system" name="usb_ask_on_connection">1</parameter>
+  <parameter db="system" name="usb_connected_sound">/system/media/audio/ui/LG_Cable_Connect.ogg</parameter>
+  <parameter db="system" name="user_change_brightness">0</parameter>
+  <parameter db="system" name="user_change_brightness_no_night">0</parameter>
+  <parameter db="system" name="user_set_locale">0</parameter>
+  <parameter db="system" name="vibrate_in_silent">1</parameter>
+  <parameter db="system" name="vibrate_on">10</parameter>
+  <parameter db="system" name="vibrate_when_ringing">0</parameter>
+  <parameter db="system" name="volume_alarm">6</parameter>
+  <parameter db="system" name="volume_bluetooth_sco">7</parameter>
+  <parameter db="system" name="volume_music">7</parameter>
+  <parameter db="system" name="volume_notification">5</parameter>
+  <parameter db="system" name="volume_ring">5</parameter>
+  <parameter db="system" name="volume_system">5</parameter>
+  <parameter db="system" name="volume_voice">3</parameter>
+<!-- <parameter db="system" name="vowifi_onoff">0</parameter>-->
+  <parameter db="system" name="wide_voice_enhancement">1</parameter>
+  <parameter db="system" name="wifi_ap_broadcast_channel">0</parameter>
+  <parameter db="system" name="wifi_ap_select_channel">0</parameter>
+  <parameter db="system" name="wifi_chameleon_roaming_type">1</parameter>
+  <parameter db="system" name="wifi_internet_unavailable">0</parameter>
+  <parameter db="system" name="wifi_networks_available_auto_connect">0</parameter>
+  <parameter db="system" name="wifi_networks_available_auto_on">1</parameter>
+  <parameter db="system" name="wifi_offloading_timer_value">43200000</parameter>
+  <parameter db="system" name="wifi_rssi_polling_threshold_db">-100</parameter>
+  <parameter db="system" name="wifi_skt_dualband_connection">1</parameter>
+  <parameter db="system" name="window_animation_scale">1.0</parameter>
+  <parameter db="secure" name="KNOCKON_LENGTH_KEY">0</parameter>
+  <parameter db="secure" name="KNOCKON_LOCK_SET">0</parameter>
+  <parameter db="secure" name="accessibility_assistive_touch_service_enable">0</parameter>
+  <parameter db="secure" name="accessibility_call_reject_message_enable">0</parameter>
+  <parameter db="secure" name="accessibility_color_invert_enabled">0</parameter>
+  <parameter db="secure" name="accessibility_display_magnification_auto_update">1</parameter>
+  <parameter db="secure" name="accessibility_display_magnification_enabled">0</parameter>
+  <parameter db="secure" name="accessibility_display_magnification_scale">2.0</parameter>
+  <parameter db="secure" name="accessibility_easy_access_enabled_category">0</parameter>
+  <parameter db="secure" name="accessibility_flash_alerts_enable">0</parameter>
+  <parameter db="secure" name="accessibility_one_touch_input_service_enable">1</parameter>
+  <parameter db="secure" name="accessibility_script_injection">0</parameter>
+  <parameter db="secure" name="accessibility_script_injection_url">https://ssl.gstatic.com/accessibility/javascript/android/AndroidVox_v1.js</parameter>
+  <parameter db="secure" name="accessibility_touch_control_areas_enable">0</parameter>
+  <parameter db="secure" name="accessibility_touch_control_areas_service_enable">0</parameter>
+  <parameter db="secure" name="accessibility_turn_off_all_sounds_enable">0</parameter>
+  <parameter db="secure" name="accessibility_web_content_key_bindings">0x13=0x01000100; 0x14=0x01010100; 0x15=0x02000001; 0x16=0x02010001; 0x200000013=0x02000601; 0x200000014=0x02010601; 0x200000015=0x03020101; 0x200000016=0x03010201; 0x200000023=0x02000301; 0x200000024=0x02010301; 0x200000037=0x03070201; 0x200000038=0x03000701:0x03010701:0x03020701;</parameter>
+<!--  <parameter db="secure" name="android_id">c8149a5d9693aa7e</parameter> -->
+  <parameter db="secure" name="apn_onoff_setting">0</parameter>
+  <parameter db="secure" name="backup_enabled">0</parameter>
+  <parameter db="secure" name="backup_transport">com.google.android.backup/.BackupTransportService</parameter>
+  <parameter db="secure" name="bluetooth_addr_valid">1</parameter>
+<!--  <parameter db="secure" name="bluetooth_address">22:22:AA:CF:41:81</parameter> -->
+  <parameter db="secure" name="bluetooth_name">LG Volt</parameter>
+<!--  <parameter db="secure" name="cbox_international_sms">0</parameter> -->
+<!--  <parameter db="secure" name="cbox_international_sms_forced">0</parameter> -->
+<!--  <parameter db="secure" name="current_mcc">000</parameter> -->
+  <parameter db="secure" name="data_ehrpd_internet_ipv6_enabled">1</parameter>
+  <parameter db="secure" name="data_lte_roaming">0</parameter>
+  <parameter db="secure" name="data_network_background_data_roaming_backup">0</parameter>
+  <parameter db="secure" name="data_network_enhanced_4g_lte_mode">0</parameter>
+  <parameter db="secure" name="data_network_user_background_setting_data">0</parameter>
+  <parameter db="secure" name="data_network_user_data_disable_setting">0</parameter>
+  <parameter db="secure" name="data_network_user_paypopup_response">0</parameter>
+  <parameter db="secure" name="data_network_user_paypopup_transition_from_wifi_to_mobile">0</parameter>
+  <parameter db="secure" name="data_network_wait_for_paypopup_response">0</parameter>
+  <parameter db="secure" name="data_roaming">0</parameter>
+  <parameter db="secure" name="default_input_method">com.lge.ime/.LgeImeImpl</parameter>
+  <parameter db="secure" name="device_provisioned">0</parameter>
+  <parameter db="secure" name="enabled_input_methods">com.lge.ime/.LgeImeImpl</parameter>
+  <parameter db="secure" name="enhLocationServices_on">0</parameter>
+  <parameter db="secure" name="epdg_selfwifi_mode">0</parameter>
+  <parameter db="secure" name="frontkey_led_timeout">1500</parameter>
+  <parameter db="secure" name="hidden_pattern">0</parameter>
+  <parameter db="secure" name="immersive_mode_confirmations">com.android.incallui,com.lge.ltecall,com.android.phone</parameter>
+  <parameter db="secure" name="incall_power_button_behavior">1</parameter>
+  <parameter db="secure" name="input_methods_subtype_history"></parameter>
+<!--  <parameter db="secure" name="intent_old_mcc">000</parameter>-->
+  <parameter db="secure" name="kt_roaming_index">0</parameter>
+  <parameter db="secure" name="kt_roaming_user">+82</parameter>
+  <!--  <parameter db="secure" name="lge_lockscreen_wallpaper_index">0</parameter> -->
+  <parameter db="secure" name="location_mode">0</parameter>
+  <parameter db="secure" name="location_providers_allowed"></parameter>
+<!--  <parameter db="secure" name="lock_screen_appwidget_ids">-2</parameter> -->
+  <parameter db="secure" name="lock_screen_lock_after_timeout">5000</parameter>
+  <parameter db="secure" name="lock_screen_lock_blow_up">0</parameter>
+  <parameter db="secure" name="lock_screen_lock_effect">3</parameter>
+  <parameter db="secure" name="lock_screen_lock_portrait">0</parameter>
+  <parameter db="secure" name="lock_screen_lock_swipe">0</parameter>
+  <parameter db="secure" name="lock_screen_owner_info_enabled">0</parameter>
+  <parameter db="secure" name="lock_screen_pattern_effect">1</parameter>
+  <parameter db="secure" name="lockscreen.disabled">0</parameter>
+  <parameter db="secure" name="lockscreen.power_button_instantly_locks">1</parameter>
+  <parameter db="secure" name="long_press_timeout">500</parameter>
+  <parameter db="secure" name="mobile_data">1</parameter>
+  <parameter db="secure" name="mock_location">0</parameter>
+  <parameter db="secure" name="mount_play_not_snd">1</parameter>
+  <parameter db="secure" name="mount_ums_autostart">0</parameter>
+  <parameter db="secure" name="mount_ums_notify_enabled">1</parameter>
+  <parameter db="secure" name="mount_ums_prompt">1</parameter>
+  <parameter db="secure" name="multi_rab_setting">1</parameter>
+  <parameter db="secure" name="oem_rad_dialer_popup">0</parameter>
+  <parameter db="secure" name="oem_rad_setting">1</parameter>
+  <parameter db="secure" name="oem_rad_test">0</parameter>
+  <parameter db="secure" name="oem_rad_test_rcv_prfix">82</parameter>
+  <parameter db="secure" name="preferred_data_network_mode">1</parameter>
+  <parameter db="secure" name="preferred_network_mode">8</parameter>
+  <parameter db="secure" name="revsetting_hidden">0</parameter>
+<!--  <parameter db="secure" name="rguard_domestic_data">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_domestic_data_forced">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_domestic_voice">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_domestic_voice_forced">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_international_data">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_international_data_forced">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_international_voice">0</parameter> -->
+<!--  <parameter db="secure" name="rguard_international_voice_forced">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_dualclock">0</parameter> -->
+<!-- <parameter db="secure" name="roaming_mode_domestic_data">0</parameter> -->
+<!-- <parameter db="secure" name="roaming_mode_domestic_data_forced">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_domestic_voice">0</parameter> -->
+<!-- <parameter db="secure" name="roaming_mode_domestic_voice_forced">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_international_data">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_international_data_forced">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_international_voice">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_international_voice_forced">0</parameter> -->
+<!--  <parameter db="secure" name="roaming_mode_selected_system">0</parameter> -->
+  <parameter db="secure" name="screensaver_activate_on_dock">1</parameter>
+  <parameter db="secure" name="screensaver_activate_on_sleep">0</parameter>
+  <parameter db="secure" name="screensaver_components">com.lge.appwidget.clock/com.lge.variousstyle.clock.screensaver.Screensaver</parameter>
+  <parameter db="secure" name="screensaver_default_component">com.lge.appwidget.clock/com.lge.variousstyle.clock.screensaver.Screensaver</parameter>
+  <parameter db="secure" name="screensaver_enabled">1</parameter>
+  <parameter db="secure" name="selected_input_method_subtype">-1</parameter>
+  <parameter db="secure" name="selected_spell_checker">com.android.inputmethod.latin/.spellcheck.AndroidSpellCheckerService</parameter>
+  <parameter db="secure" name="selected_spell_checker_subtype">0</parameter>
+  <parameter db="secure" name="show_camera_widget">0</parameter>
+  <parameter db="secure" name="skt_autoapptest_onoff">0</parameter>
+  <parameter db="secure" name="skt_roaming_dualclock">0</parameter>
+  <parameter db="secure" name="sms_default_application">com.android.mms</parameter>
+  <parameter db="secure" name="speak_password">0</parameter>
+  <parameter db="secure" name="touch_exploration_enabled">0</parameter>
+  <parameter db="secure" name="touch_exploration_granted_accessibility_services">com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</parameter>
+  <parameter db="secure" name="user_setup_complete">0</parameter>
+  <parameter db="secure" name="voice_recognition_service">com.google.android.googlequicksearchbox/com.google.android.voicesearch.serviceapi.GoogleRecognitionService</parameter>
+  <parameter db="secure" name="weather_animation_key">0</parameter>
+  <!-- <parameter db="global" name="adb_enabled">1</parameter>-->
+  <parameter db="global" name="airplane_mode_on">0</parameter>
+  <parameter db="global" name="airplane_mode_radios">cell,bluetooth,wifi,nfc</parameter>
+  <parameter db="global" name="airplane_mode_toggleable_radios">bluetooth,wifi,nfc</parameter>
+  <parameter db="global" name="assisted_gps_enabled">0</parameter>
+  <!-- <parameter db="global" name="assisted_gps_enabled_for_cmcc">1</parameter> -->
+  <parameter db="global" name="audio_safe_volume_state">1</parameter>
+  <parameter db="global" name="auto_time">1</parameter>
+  <parameter db="global" name="auto_time_zone">1</parameter>
+  <parameter db="global" name="bluetooth_on">0</parameter>
+  <parameter db="global" name="call_auto_retry">0</parameter>
+  <parameter db="global" name="car_dock_sound">/system/media/audio/ui/Dock.ogg</parameter>
+  <parameter db="global" name="car_undock_sound">/system/media/audio/ui/Undock.ogg</parameter>
+  <parameter db="global" name="cdma_cell_broadcast_sms">1</parameter>
+<!-- <parameter db="global" name="cover_closing_sound">1</parameter>-->
+<!-- <parameter db="global" name="cover_open_count">0</parameter>-->
+  <parameter db="global" name="cover_type">1</parameter>
+  <parameter db="global" name="data_roaming">0</parameter>
+  <parameter db="global" name="default_install_location">0</parameter>
+  <parameter db="global" name="desk_dock_sound">/system/media/audio/ui/Dock.ogg</parameter>
+  <parameter db="global" name="desk_undock_sound">/system/media/audio/ui/Undock.ogg</parameter>
+  <parameter db="global" name="device_provisioned">0</parameter>
+  <parameter db="global" name="dock_audio_media_enabled">1</parameter>
+  <parameter db="global" name="dock_sounds_enabled">0</parameter>
+  <parameter db="global" name="emergency_tone">0</parameter>
+  <parameter db="global" name="install_non_market_apps">0</parameter>
+  <parameter db="global" name="lg_device_name">LG Volt</parameter>
+  <parameter db="global" name="lock_sound">/system/media/audio/ui/Lock.ogg</parameter>
+  <parameter db="global" name="lollipop_cover_type">0</parameter>
+  <parameter db="global" name="low_battery_sound">/system/media/audio/ui/LowBattery.ogg</parameter>
+  <parameter db="global" name="low_battery_sound_timeout">0</parameter>
+  <parameter db="global" name="mobile_data">1</parameter>
+  <parameter db="global" name="mode_ringer">2</parameter>
+  <parameter db="global" name="netstats_enabled">1</parameter>
+  <parameter db="global" name="network_preference">1</parameter>
+  <parameter db="global" name="nfc_first_on_check">0</parameter>
+  <parameter db="global" name="package_verifier_enable">1</parameter>
+  <parameter db="global" name="phone_mode_agree">0</parameter>
+  <parameter db="global" name="phone_mode_apply">0</parameter>
+  <parameter db="global" name="phone_mode_set">0</parameter>
+  <parameter db="global" name="power_sounds_enabled">1</parameter>
+  <parameter db="global" name="preferred_network_mode">8</parameter>
+  <parameter db="global" name="quick_cover_enable">0</parameter>
+  <parameter db="global" name="quick_pop_mode_set">0</parameter>
+  <parameter db="global" name="quick_view_enable">1</parameter>
+ <!-- <parameter db="global" name="roaming_settings">0</parameter> -->
+  <parameter db="global" name="set_install_location">0</parameter>
+  <parameter db="global" name="sound_gps_enabled">0</parameter>
+  <parameter db="global" name="stay_on_while_plugged_in">0</parameter>
+  <parameter db="global" name="subscription_mode">1</parameter>
+  <parameter db="global" name="tangible_dock_panel_enable">1</parameter>
+  <parameter db="global" name="tangible_earphone_panel_enable">1</parameter>
+  <parameter db="global" name="tangible_pen_panel_enable">1</parameter>
+  <parameter db="global" name="tangible_usbstorage_panel_enable">1</parameter>
+  <!-- <parameter db="global" name="tether_dun_required">0</parameter> -->
+  <parameter db="global" name="unlock_sound">/system/media/audio/ui/Unlock.ogg</parameter>
+  <parameter db="global" name="usb_mass_storage_enabled">1</parameter>
+  <parameter db="global" name="vtr_wind_sim_inserted">0</parameter>
+  <parameter db="global" name="wi_fi_notifications">1</parameter>
+  <parameter db="global" name="wifi_country_code">us</parameter>
+  <parameter db="global" name="wifi_display_on">0</parameter>
+  <parameter db="global" name="wifi_list_sorting">0</parameter>
+  <parameter db="global" name="wifi_max_dhcp_retry_count">3</parameter>
+  <parameter db="global" name="wifi_networks_available_notification_on">1</parameter>
+  <parameter db="global" name="wifi_on">1</parameter>
+  <parameter db="global" name="wifi_sleep_policy">2</parameter>
+  <parameter db="global" name="wifi_watchdog_on">1</parameter>
+  <parameter db="global" name="wifi_watchdog_poor_network_test_enabled">0</parameter>
+  <parameter db="global" name="window_auto_unlock_enable">1</parameter>
+  <parameter db="global" name="window_messages_enable">0</parameter>
+  <parameter db="global" name="wireless_charging_started_sound">/system/media/audio/ui/WirelessChargingStarted.ogg</parameter>
+</parameters>
